@@ -1,0 +1,8 @@
+build/
+.vscode/
+.vs/
+*.geode
+CMakeSettings.json
+.cache/
+out/
+.claude/
