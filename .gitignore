@@ -6,3 +6,5 @@ CMakeSettings.json
 .cache/
 out/
 .claude/
+build_out.txt
+build_err.txt

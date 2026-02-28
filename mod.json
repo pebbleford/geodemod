@@ -1,11 +1,14 @@
 {
     "geode": "5.1.0",
     "gd": {
-        "win": "2.2081"
+        "win": "2.2081",
+        "android": "2.2081",
+        "ios": "2.2081",
+        "mac": "2.2081"
     },
     "id": "liam.gd-mod-menu",
     "name": "GD Mod Menu",
-    "version": "v1.1.0",
+    "version": "v1.2.0",
     "developer": "Liam",
-    "description": "Full-featured mod menu with 48 hacks. Press Tab to open."
+    "description": "Full-featured mod menu with 48 hacks. Tab on PC, floating button on mobile."
 }
