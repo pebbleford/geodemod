@@ -147,12 +147,12 @@ void ModMenuPopup::onSpeedSlider(CCObject* sender) {
     Mod::get()->setSettingValue<double>("speedhack", speed);
 }
 
-void ModMenuPopup::keyDown(cocos2d::enumKeyCodes key) {
+void ModMenuPopup::keyDown(cocos2d::enumKeyCodes key, double p1) {
     if (key == cocos2d::enumKeyCodes::KEY_Tab) {
         this->onClose(nullptr);
         return;
     }
-    Popup::keyDown(key);
+    Popup::keyDown(key, p1);
 }
 
 ModMenuPopup* ModMenuPopup::create() {

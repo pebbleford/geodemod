@@ -29,8 +29,8 @@ class $modify(InstantPlayLayer, PlayLayer) {
             return false;
 
         if (Hacks::isEnabled("practice-music")) {
-            // Enable the practice music hack through GameManager
-            GameManager::get()->m_practiceMusicSync = true;
+            // Enable the practice music hack
+            this->m_practiceMusicSync = true;
         }
 
         return true;

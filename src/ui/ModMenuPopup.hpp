@@ -4,7 +4,7 @@
 
 using namespace geode::prelude;
 
-class ModMenuPopup : public geode::Popup<> {
+class ModMenuPopup : public geode::Popup {
 protected:
     CCMenu* m_toggleMenu = nullptr;
     int m_currentTab = 0;
@@ -16,7 +16,7 @@ protected:
     void onTabSwitch(CCObject* sender);
     void onToggle(CCObject* sender);
     void onSpeedSlider(CCObject* sender);
-    void keyDown(cocos2d::enumKeyCodes key) override;
+    void keyDown(cocos2d::enumKeyCodes key, double p1) override;
 
 public:
     static ModMenuPopup* create();
